@@ -11,7 +11,6 @@ public class Listner extends TestRunner implements ITestListener {
 	@Override
 	public void onTestStart(ITestResult result) {
 		System.out.println("Test case Execution Started!");
-           	System.out.println("Started...");
 	}
 
 	@Override
